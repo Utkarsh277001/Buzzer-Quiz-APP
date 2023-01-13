@@ -120,15 +120,14 @@
             </ScrollView>
         </androidx.cardview.widget.CardView>
 
-        <TextView
+        <Button
             android:id="@+id/trueBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="28dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="50dp"
-            android:layout_marginBottom="68dp"
-            android:background="@drawable/customdsg"
+            android:layout_marginBottom="66dp"
+            android:backgroundTint="#DD7352"
             android:drawableLeft="@drawable/ic_action_name"
             android:padding="5dp"
             android:text="   TRUE  "
@@ -136,19 +135,17 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/nextBtn"
-            app:layout_constraintEnd_toStartOf="@+id/falseBtn"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/viewQue" />
 
-        <TextView
+        <Button
             android:id="@+id/falseBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
             android:layout_marginTop="51dp"
-            android:layout_marginEnd="30dp"
+            android:layout_marginEnd="28dp"
             android:layout_marginBottom="48dp"
-            android:background="@drawable/customdsg"
+            android:backgroundTint="#DD7352"
             android:drawableLeft="@drawable/ic_btn"
             android:padding="5dp"
             android:text="  FALSE  "
@@ -157,15 +154,17 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/nextBtn"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/trueBtn"
-            app:layout_constraintTop_toBottomOf="@+id/viewQue" />
+            app:layout_constraintTop_toBottomOf="@+id/viewQue"
+            app:layout_constraintVertical_bias="1.0" />
 
-        <TextView
+        <Button
             android:id="@+id/nextBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="168dp"
-            android:background="@drawable/customdsg"
+            android:backgroundTint="#DD7352"
             android:padding="5dp"
             android:text="           NEXT         "
             android:textColor="@color/black"
