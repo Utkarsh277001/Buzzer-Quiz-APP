@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Buzzer</string>
+    <string name="correct">Correct</string>
+    <string name="Incorrect">Incorrect</string>
+</resources>
