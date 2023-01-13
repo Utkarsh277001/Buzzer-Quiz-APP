@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#BA2383"
+        android:background="#D85D36"
         android:contentDescription="falseBtn"
         tools:context=".MainActivity">
 
@@ -92,7 +92,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="14dp"
             android:layout_marginBottom="51dp"
-            android:backgroundTint="#BC5480"
+            android:backgroundTint="#DD7352"
             app:cardCornerRadius="20dp"
             app:layout_constraintBottom_toTopOf="@+id/trueBtn"
             app:layout_constraintEnd_toEndOf="parent"
